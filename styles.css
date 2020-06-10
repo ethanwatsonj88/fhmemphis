@@ -1,0 +1,186 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+}
+
+body {
+  overflow-y: scroll;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem 16rem;
+}
+
+main {
+  padding: 2rem 0;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+	font-weight: lighter;
+	font-size: 2.6rem;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+	font-size: .8rem;
+	opacity: 80%;
+	margin: 0 1rem;
+}
+
+.first {
+	margin-left: 0;
+	display: flex;
+}
+
+.last {
+	margin-right: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.navbar {
+	width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar li {
+	margin: 0 .4rem;
+}
+
+.navbar li:first-child {
+	margin-left: 0;
+}
+
+.navbar li:last-child {
+	margin-right: 0;
+}
+
+
+.navbar-image {
+	width: 30px;
+}
+
+.head {
+  width: 100%;
+  height: 50rem;
+  background-image: url(public/fhmemphis-splash.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  padding: 0 16.6rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+.head h2 {
+  color: white;
+}
+
+.employee-strip {
+  background-color: #136653;
+  margin: 2rem 0;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem -2000px;
+  padding: 1.8rem 2000px;
+
+}
+
+.employee-details {
+  flex-direction: column;
+  color: white;
+  height: 100%;
+  font-size: 1.6rem;
+}
+
+.employee-strip img {
+  height: 130px;
+}
+
+ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	
+}
+
+li {
+	list-style-type: none;
+}
+
+.cards {
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 768px) {
+	ul {
+		flex-direction: column;
+	}
+
+	
+}
+
+@media only screen and (max-width: 1080px) {
+	.footbar {
+		flex-direction: column;
+	}
+
+	.navbar .footer-text {
+		margin-left: 0;
+	}
+}
