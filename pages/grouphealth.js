@@ -39,4 +39,4 @@ class GroupHealth extends React.Component {
   }
 }
 
-export default IndividualHealth
+export default GroupHealth
