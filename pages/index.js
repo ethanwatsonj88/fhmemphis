@@ -30,7 +30,7 @@ export default function Home() {
             <li>Phone: 901-268-4824</li>
             <li>Email: fpsc_sl@bellsouth.net</li>
           </ul>
-          <img src="logo.png" />
+          <img src="sl.png" />
         </div>
 
         <div className="employee-strip">
@@ -39,13 +39,21 @@ export default function Home() {
             <li>Phone: 901-260-6420</li>
             <li>Email: fpsc_dd@bellsouth.net</li>
           </ul>
-          <img src="" />
+          <img src="dd.png" />
         </div>
 
         <h3>Sign up for the affordable care act</h3>
+        <a href="https://www.healthsherpa.com/?_agent_id=edward-felsenthal">
+          <img id="aca-icon" src="affordable-care-act.png"/>
+        </a>
         <h3>Accredidation</h3>
+        <a href="https://www.bbb.org/us/tn/memphis/profile/financial-planning-consultants/felsenthal-financial-services-inc-0543-11001676">
+          <img src="accreditation.png" />
+        </a>
         <h3>BBB Rating</h3>
-
+        <a href="https://www.bbb.org/us/tn/memphis/profile/financial-planning-consultants/felsenthal-financial-services-inc-0543-11001676">
+          <img src="bbbrating.png" />
+        </a>
       </main>
 
       <Footbar />

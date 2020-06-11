@@ -136,8 +136,8 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 2rem -2000px;
-  padding: 1.8rem 2000px;
+  margin: 2rem -16rem;
+  padding: 1.8rem 16rem;
 
 }
 
@@ -146,6 +146,10 @@ a {
   color: white;
   height: 100%;
   font-size: 1.6rem;
+}
+
+#aca-icon {
+  width: 200px;
 }
 
 .employee-strip img {
