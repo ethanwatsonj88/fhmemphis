@@ -73,6 +73,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #136653;
+}
+
 .title {
   margin: 0;
   line-height: 1.15;
