@@ -21,7 +21,7 @@ class GroupHealth extends React.Component {
               Felsenthal Health and Employee Benefits
             </h1>
 
-            <ul>
+            <ul className="cards">
               <li>Health</li>
               <li>Dental</li>
               <li>Life</li>

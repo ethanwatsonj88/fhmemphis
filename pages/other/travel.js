@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import Navbar from '../components/navbar'
+import Navbar from '../../components/navbar'
 import Link from 'next/link'
 
-class Other extends React.Component {
+class Travel extends React.Component {
   render() {
     return (
     	<div className="container">
@@ -15,7 +15,7 @@ class Other extends React.Component {
             <Navbar name="fdaf"/>
 
             <div className="head">
-              <h2>Other</h2>  
+              <h2>Travel</h2>  
             </div>
 
             <h1 className="title">
@@ -23,13 +23,9 @@ class Other extends React.Component {
             </h1>
 
             <ul className="cards">
-              <li>Property</li>
-              <li><Link href="other/travel"><a>Travel</a></Link></li>
-              <li><Link href="other/international-medical"><a>International Medical</a></Link></li>
-              <li>Business</li>
-              <li>Worker Comp</li>
-              <li>Auto/Home</li>
-              <li>Pet</li>
+              <li><Link href="pdfs/Travel1.pdf"><a>iTravel Insured Lite</a></Link></li>
+              <li><Link href="pdfs/Travel2.pdf"><a>iTravel Insured SE</a></Link></li>
+              <li><Link href="pdfs/Travel3.pdf"><a>iTravel Insured LX</a></Link></li>
             </ul>
 
             
@@ -44,4 +40,4 @@ class Other extends React.Component {
   }
 }
 
-export default Other
+export default Travel

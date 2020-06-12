@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import Navbar from '../components/navbar'
-import Footbar from '../components/footbar'
+import Navbar from '../../components/navbar'
+import Link from 'next/link'
 
-class OurTeam extends React.Component {
+class InternationalMedical extends React.Component {
   render() {
     return (
     	<div className="container">
@@ -15,7 +15,7 @@ class OurTeam extends React.Component {
             <Navbar name="fdaf"/>
 
             <div className="head">
-              <h2>Our Team</h2>  
+              <h2>International Medical</h2>  
             </div>
 
             <h1 className="title">
@@ -23,17 +23,19 @@ class OurTeam extends React.Component {
             </h1>
 
             <ul className="cards">
-              <li>Stephen Lester</li>
-              <li>David Deaderick</li>
-            </ul>
+              <li><Link href="/pdfs/TravelMedical.pdf"><a>Patriot Travel Series</a></Link></li>
+              <li><Link href="/pdfs/TravelMedical2.pdf"><a>Global Medical Insurance</a></Link></li>
 
-            
+            </ul>
           </main>
 
-          <Footbar />
+          <footer>
+            
+
+          </footer>
         </div>
     );
   }
 }
 
-export default OurTeam
+export default InternationalMedical
