@@ -35,11 +35,11 @@ class IndividualHealth extends React.Component {
               <li className="card">Medicare Advantage</li>
               <li className="card">Medicare Supplements</li>
               <li className="card"><Link href="accident"><a>Accident</a></Link></li>
-              <li className="card">Critical Illness</li>
-              <li className="card">Cancer</li>
+              <li className="card"><Link href="criticalillness"><a>Critical Illness</a></Link></li>
+              <li className="card"><Link href="cancer"><a>Cancer</a></Link></li>
               <li className="card">Prescription</li>
               <li className="card">Drug Plans</li>
-              <li className="card">Telehealth Advocacy</li>
+              <li className="card"><Link href="telehealth-advocacy"><a>Telehealth Advocacy</a></Link></li>
               <li className="card">Longterm Care</li>
             </ul>
           </main>
