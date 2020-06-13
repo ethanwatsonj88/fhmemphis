@@ -22,10 +22,23 @@ class OurTeam extends React.Component {
               Felsenthal Health and Employee Benefits
             </h1>
 
-            <ul className="cards">
-              <li>Stephen Lester</li>
-              <li>David Deaderick</li>
-            </ul>
+            <div className="employee-strip">
+              <ul className="employee-details">
+                <li><b>Stephen Lester</b></li>
+                <li>Phone: 901-268-4824</li>
+                <li>Email: fpsc_sl@bellsouth.net</li>
+              </ul>
+              <img src="sl.png" />
+            </div>
+
+            <div className="employee-strip">
+              <ul className="employee-details">
+                <li><b>David Deaderick</b></li>
+                <li>Phone: 901-260-6420</li>
+                <li>Email: fpsc_dd@bellsouth.net</li>
+              </ul>
+              <img src="dd.png" />
+            </div>
 
             
           </main>

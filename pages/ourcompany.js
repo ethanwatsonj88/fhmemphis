@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Navbar from '../components/navbar'
+import Footbar from '../components/footbar'
 
 class OurCompany extends React.Component {
   render() {
@@ -30,10 +31,7 @@ class OurCompany extends React.Component {
             <p>We represent all the major carries including Blue Cross of TN, CIGNA, Aetna, United Healthcare, Humana, Mutual of Omaha, Guardian, and Mass Mutual</p>
           </main>
 
-          <footer>
-            
-
-          </footer>
+          <Footbar />
         </div>
     );
   }

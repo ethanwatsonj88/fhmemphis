@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Navbar from '../components/navbar'
+import Footbar from '../components/footbar'
 
 class GroupHealth extends React.Component {
   render() {
@@ -32,10 +33,7 @@ class GroupHealth extends React.Component {
             </ul>
           </main>
 
-          <footer>
-            
-
-          </footer>
+          <Footbar />
         </div>
     );
   }

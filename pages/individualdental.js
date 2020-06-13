@@ -27,12 +27,12 @@ class IndividualDental extends React.Component {
             <h3><a href="https://ddtn.dentalforeveryone.com/?Portal=DDTN-18289056">Enroll Now</a></h3>
 
             <ul className="cards">
-              <li><Link href="pdfs/Delta_Dental_Plan1.pdf"><a>Delta Dental - Essential Advantage PPO</a></Link></li>
-              <li><Link href="pdfs/Delta_Dental_Plan2.pdf"><a>Delta Dental - Superior Advantage PPO</a></Link></li>
-              <li><Link href="pdfs/Delta_Dental_Plan3.pdf"><a>Delta Dental - Brighter Advantage PPO</a></Link></li>
-              <li><Link href="pdfs/HumanaPreventativePlus.pdf"><a>Humana Preventative Plus</a></Link></li>
-              <li><Link href="pdfs/HumanaLoyaltyPlus.pdf"><a>Humana Loyalty Plus</a></Link></li>
-              <li><Link href="pdfs/HumanaCompleteDental.pdf"><a>Humana Complete Dental</a></Link></li>
+              <li className="card"><Link href="pdfs/Delta_Dental_Plan1.pdf"><a>Delta Dental - Essential Advantage PPO</a></Link></li>
+              <li className="card"><Link href="pdfs/Delta_Dental_Plan2.pdf"><a>Delta Dental - Superior Advantage PPO</a></Link></li>
+              <li className="card"><Link href="pdfs/Delta_Dental_Plan3.pdf"><a>Delta Dental - Brighter Advantage PPO</a></Link></li>
+              <li className="card"><Link href="pdfs/HumanaPreventativePlus.pdf"><a>Humana Preventative Plus</a></Link></li>
+              <li className="card"><Link href="pdfs/HumanaLoyaltyPlus.pdf"><a>Humana Loyalty Plus</a></Link></li>
+              <li className="card"><Link href="pdfs/HumanaCompleteDental.pdf"><a>Humana Complete Dental</a></Link></li>
           
             </ul>
           </main>
