@@ -23,8 +23,8 @@ class InternationalMedical extends React.Component {
             </h1>
 
             <ul className="cards">
-              <li><Link href="/pdfs/TravelMedical.pdf"><a>Patriot Travel Series</a></Link></li>
-              <li><Link href="/pdfs/TravelMedical2.pdf"><a>Global Medical Insurance</a></Link></li>
+              <li className="card"><Link href="/pdfs/TravelMedical.pdf"><a>Patriot Travel Series</a></Link></li>
+              <li className="card"><Link href="/pdfs/TravelMedical2.pdf"><a>Global Medical Insurance</a></Link></li>
 
             </ul>
           </main>

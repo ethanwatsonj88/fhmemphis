@@ -23,12 +23,12 @@ class GroupHealth extends React.Component {
             </h1>
 
             <ul className="cards">
-              <li>Health</li>
-              <li>Dental</li>
-              <li>Life</li>
-              <li>LTC</li>
-              <li>Disability</li>
-              <li>FSA/HSA/HRA</li>
+              <li className="card">Health</li>
+              <li className="card">Dental</li>
+              <li className="card">Life</li>
+              <li className="card">LTC</li>
+              <li className="card">Disability</li>
+              <li className="card">FSA/HSA/HRA</li>
 
             </ul>
           </main>

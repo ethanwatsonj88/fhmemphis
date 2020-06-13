@@ -23,9 +23,9 @@ class Travel extends React.Component {
             </h1>
 
             <ul className="cards">
-              <li><Link href="pdfs/Travel1.pdf"><a>iTravel Insured Lite</a></Link></li>
-              <li><Link href="pdfs/Travel2.pdf"><a>iTravel Insured SE</a></Link></li>
-              <li><Link href="pdfs/Travel3.pdf"><a>iTravel Insured LX</a></Link></li>
+              <li className="card"><Link href="pdfs/Travel1.pdf"><a>iTravel Insured Lite</a></Link></li>
+              <li className="card"><Link href="pdfs/Travel2.pdf"><a>iTravel Insured SE</a></Link></li>
+              <li className="card"><Link href="pdfs/Travel3.pdf"><a>iTravel Insured LX</a></Link></li>
             </ul>
 
             
