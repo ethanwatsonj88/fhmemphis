@@ -28,7 +28,7 @@ class GroupHealth extends React.Component {
               <li className="card">Life</li>
               <li className="card">LTC</li>
               <li className="card">Disability</li>
-              <li className="card">FSA/HSA/HRA</li>
+              <li className="card">FSA, HSA, HRA</li>
 
             </ul>
           </main>

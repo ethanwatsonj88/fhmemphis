@@ -197,10 +197,46 @@ li {
 .card a:hover {
 }
 
-@media only screen and (max-width: 768px) {
-	ul {
+@media only screen and (max-width: 1080px) {
+  .container {
+    margin: 0 4rem;
+  }
+
+	ul, .navbar {
 		flex-direction: column;
 	}
+
+  .navbar li {
+    margin-left: 0;
+  }
+
+  .head {
+    height: 20rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    white-space: nowrap;
+  }
+
+  .employee-strip {
+    flex-direction: column;
+    left: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    max-width: 100vw;
+    position: relative;
+    right: 50%;
+    width: 100vw;
+  }
+
+  .card {
+    font-size: 1.2rem;
+  }
 
 	
 }

@@ -31,7 +31,7 @@ class IndividualHealth extends React.Component {
               <li className="card">Shortterm Disability</li>
               <li className="card"><Link href="individualdental"><a>Dental</a></Link></li>
               <li className="card"><Link href="vision"><a>Vision</a></Link></li>
-              <li className="card"><Link href="dentalvisionhearing"><a>Dental/Hearing/Vision</a></Link></li>
+              <li className="card"><Link href="dentalvisionhearing"><a>Dental, Hearing, Vision</a></Link></li>
               <li className="card">Medicare Advantage</li>
               <li className="card">Medicare Supplements</li>
               <li className="card"><Link href="accident"><a>Accident</a></Link></li>
