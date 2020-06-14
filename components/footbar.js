@@ -10,7 +10,6 @@ class Footbar extends React.Component {
                 <li className="footer-text">(901) 767-5951</li>
                 <li className="footer-text">felsenthalhealth@gmail.com</li>
                 <li className="footer-text">Hours of operation: 8 am - 5 pm</li>
-                <li className="footer-text last">Get a quote</li>
             </ul>
         </footer>
     );
