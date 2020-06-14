@@ -1,3 +1,6 @@
+## My Stack
+This is a next.js application deployed with Vercel with Joker DNS services. Master is being watched by vercel. [fhmemphis.com] Felsenthal Health and Employee Benefits, an insurance company in Memphis, Tennessee.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
