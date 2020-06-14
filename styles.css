@@ -193,9 +193,6 @@ li {
   box-shadow: 3px 0 3px grey;
 }
 
-.card a:hover {
-}
-
 @media only screen and (max-width: 1080px) {
   .container {
     margin: 0 4rem;
@@ -235,6 +232,7 @@ li {
 
   .card {
     font-size: 1.2rem;
+    width: 40%;
   }
 
 	
