@@ -131,7 +131,16 @@ a:hover {
   color: white;
 }
 
-.employee-strip {
+.head-promo {
+  font-size: 6rem;
+  
+}
+
+input {
+  display: block;
+}
+
+.promo-strip {
   background-color: #136653;
   margin: 2rem 0;
   padding: 1rem 2rem;
@@ -141,6 +150,29 @@ a:hover {
   align-items: center;
   margin: 2rem -16rem;
   padding: 1.8rem 16rem;
+
+}
+
+.promo-strip img {
+  height: 130px;
+}
+
+.promo-details {
+  flex-direction: column;
+  color: white;
+  height: 100%;
+  font-size: 1.6rem;
+}
+
+.employee-strip {
+  background-color: #136653;
+  border-bottom: 8px solid #8db0a5;
+  margin: 2rem 0;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 
 }
 
