@@ -65,6 +65,197 @@ class CignaOscar extends React.Component {
 
             <ContactUs />
 
+
+            <br /><br /><br /><br /><br /><br /><br /><br />
+            <div style={{border: "200px solid red"}}></div>
+
+            <h2>We mean business. <br />
+            Yours, that is.</h2>
+
+            <button>Let's get started</button>
+
+            <p>Something for everyone</p>
+            <p>Healthy employees and a healthy bottom line</p>
+
+            <div>
+              <div>
+                <img src="/cigna-oscar/Broker_IMG_1x.png" />
+                <h4>Health plans that save you money</h4>
+                <p>Save on small business health insurance so you can focus on your company.</p>
+              </div>
+              <div>
+                <img src="/cigna-oscar/IMG_2.png" />
+                <h4>Care that cares about your employees</h4>
+                <p>No-cost 24/7 urgent care2, $3 prescriptions3, and Care Teams that know their names.</p>
+              </div>
+            </div>
+
+            <p>For your employees and your business</p>
+            <p>Affordable care that works for everyone</p>
+
+            <div>
+              <div>
+                <img />
+                <div>
+                  <p>NETWORKS TO FIT YOUR NEEDS</p>
+                  <p>Access to Cigna's networks of doctors and specialists, no referrals</p>
+                </div>
+              </div>
+
+              <div>
+                <img />
+                <div>
+                  <p>24/7 VIRTUAL CARE</p>
+                  <p>Hundreds of doctors on call, available anytime for $0</p>
+                </div>
+              </div>
+
+              <div>
+                <img />
+                <div>
+                  <p>PLANS THAT FIT YOUR BUDGET</p>
+                  <p>Savings you can build on</p>
+                </div>
+              </div>
+
+              <div>
+                <img />
+                <div>
+                  <p>PRESCRIPTIONS DONE RIGHT</p>
+                  <p>Save on prescriptions and refill them right from your phone </p>
+                </div>
+              </div>
+
+              <button>Let's get started</button>
+
+            </div>
+
+            <div>
+              <div>
+                <h4>Care for every part of your team</h4>
+                <div>
+                  <p>Dedicated care guides</p>
+                  <p>Help employees find the best doctors and specialists to get the most from their plans.</p>
+
+                </div>
+
+                <div>
+                  <p>Plan guides</p>
+                  <p>Help employees find the best doctors and specialists to get the most from their plans.</p>
+
+                </div>
+
+                <div>
+                  <p>Healthy minds and bodies</p>
+                  <p>Mental health support, behavioral coaching, and more to keep employees happy, healthy, and productive.</p>
+
+                </div>
+              </div>
+              <img />
+            </div>
+
+            <div>
+              <h4>Frequently asked questions</h4>
+
+              <ul>
+                <li>
+                  <p>Why are Cigna and Oscar partnering?</p>
+                  <p>
+                    Cigna + Oscar is designed to work for small businesses like yours. 
+                    We’re bringing together the power of Cigna's nationwide and local 
+                    provider networks, and Oscar’s member-focused experience, to deliver 
+                    small group health insurance that understands the unique needs of small 
+                    businesses and their employees. We’re here to provide affordable care 
+                    that works for your team, and insurance that cares for your business.
+                  </p>
+                </li>
+                <li>
+                  <p>Is Cigna + Oscar right for my business?</p>
+                  <p>
+                    Cigna + Oscar plans are right for businesses looking to begin 
+                    their plan in late 2020, or early 2021, with 1-50 employees 
+                    total (or, in certain states, up to 100 employees). Our 
+                    plans are built for small businesses with at least one qualified 
+                    full-time (or full-time equivalent) employee, other than the 
+                    business owner or a spouse.
+                  </p>
+                </li>
+                <li>
+                  <p>When will Cigna + Oscar be available?</p>
+                  <p>
+                    The effective dates—the first date a Cigna + Oscar plan 
+                    can begin—will be 10/1 for most markets pending regulatory 
+                    approval. To keep up with email updates about our launch, 
+                    sign up below.
+                  </p>
+                </li>
+                <li>
+                  <p>Where is Cigna + Oscar available?</p>
+                  <p>
+                    Cigna + Oscar plans will be available in select ZIP 
+                    codes in the Bay Area and Atlanta, as well as throughout 
+                    the state of Tennessee, pending regulatory approval. 
+                    Use the form on this page to confirm if Cigna + Oscar 
+                    will be available in your area soon.
+                  </p>
+                </li>
+                <li>
+                  <p>How much will Cigna + Oscar plans cost?</p>
+                  <p>
+                    Plan costs will vary, but we’re all about affordability. 
+                    Cigna + Oscar plans are designed to help your business and 
+                    team save time and money.
+
+                    Plan features include:
+
+                    Dual Network: Choose between two networks, Cigna 
+                    LocalPlus® and Cigna Open Access Plus, and save on health 
+                    insurance that fits your team’s needs.
+
+                    Care Guides: Dedicated experts help your team get the 
+                    most from their plans and find the affordable care they need.
+                    
+                    Cigna + Oscar members pay $0 copay for access to 24/7 telemedicine.
+
+                    Save on prescriptions and refill them right from your phone.
+
+                    Cigna + Oscar pays your employees to hit their daily step goals. 
+                    Members can earn $1 toward an Amazon® Gift Card for every day 
+                    they hit their step goal (up to $100 per year).
+                    
+                    Quotes are now available in Tennessee and Atlanta. Fill out our Sales Contact form for a quote.
+                  </p>
+                </li>
+                <li>
+                  <p>What type of plan are Cigna + Oscar plans?</p>
+                  <p>
+                    The plans available to you will depend on where you are.
+
+                    Pending regulatory approval, EPO will be offered in 
+                    California and Tennessee; PPO will be available in Georgia.
+                    
+                    EPO stands for Exclusive Provider Organization. They 
+                    typically have smaller networks that combine the flexibility 
+                    of a PPO with the cost savings of an HMO. You won’t need to 
+                    choose a primary care doctor or ask for referrals. Care is 
+                    covered by doctors and facilities within the network—but not 
+                    outside the network, except in emergencies.
+
+                    PPO stands for Preferred Provider Organization. Although they 
+                    can be more expensive than an EPO, they tend to offer the 
+                    broadest access to care. They include networks that cover care 
+                    from both in-network and out-of-network doctors and facilities, 
+                    but going out of network may cost additional as compared to 
+                    staying in network. You won’t have to choose a primary care 
+                    doctor, and referrals aren’t required to see a specialist.
+                  </p>
+                </li>
+              </ul>
+
+            </div>
+
+            <ContactUs />
+
           </main>
 
           <Footbar />
