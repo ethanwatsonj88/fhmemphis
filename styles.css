@@ -5,6 +5,7 @@ body {
   font-family: avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     sans-serif;
+  color: #141414;
 }
 
 body {
@@ -127,6 +128,13 @@ a:hover {
 
 }
 
+.cigna {
+  background-image: url(public/cigna-oscar-3.png);
+  animation-name: image-fade-in;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+}
+
 .head h2 {
   color: white;
 }
@@ -138,6 +146,10 @@ a:hover {
 
 input {
   display: block;
+}
+
+img {
+  object-fit: contain;
 }
 
 .promo-strip {
@@ -192,14 +204,20 @@ input {
 }
 
 ul {
-	display: flex;
 	margin: 0;
 	padding: 0;
-	
+  display: flex;
+}
+
+h3 > ul {
+  display: block;
+} 
+
+ul.navbar {
 }
 
 li {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 .cards {
@@ -219,11 +237,16 @@ li {
   align-items: center;
   border-color: #136653;
   border-left: 3px #136653 solid;
-  color: black;
+  color: ##100c08;
   font-weight: 500;
   font-size: 1.4rem;
   box-shadow: 3px 0 3px grey;
 }
+
+.cigna-section-title {
+  margin-block-end: 0rem;
+}
+
 
 @media only screen and (max-width: 1080px) {
   .container {
@@ -278,4 +301,9 @@ li {
 	.navbar .footer-text {
 		margin-left: 0;
 	}
+}
+
+@keyframes image-fade-in {
+  0% {transform: translate(0px, 8px);}
+  100% {transform: translate(0px, 0px);}
 }
