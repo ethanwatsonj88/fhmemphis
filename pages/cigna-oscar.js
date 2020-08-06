@@ -5,6 +5,7 @@ import ContactUs from '../components/contact-form';
 
 import Footbar from '../components/footbar'
 
+
 class CignaOscar extends React.Component {
   render() {
     return (
@@ -69,29 +70,32 @@ class CignaOscar extends React.Component {
             <br /><br /><br /><br /><br /><br /><br /><br />
             <div style={{border: "200px solid red"}}></div>
 
-            <h2>We mean business. <br />
-            Yours, that is.</h2>
+            <div className="head cigna">
+              <a href="" className="cigna-button">Let's get started ▼</a>
+              <h2>We mean business. <br />
+              Yours, that is.</h2> 
 
-            <button>Let's get started</button>
+            </div>
 
-            <p>Something for everyone</p>
-            <p>Healthy employees and a healthy bottom line</p>
 
-            <div>
-              <div>
-                <img src="/cigna-oscar/Broker_IMG_1x.png" />
-                <h4>Health plans that save you money</h4>
+            <p className="section-subtitle">Something for everyone</p>
+            <p className="section-title">Healthy employees and a healthy bottom line</p>
+
+            <div className="cigna-two-col">
+              <div className="cigna-col">
+                <img src="/cigna-oscar/Broker_IMG_1x.png" className="cigna-image"/>
+                <h4 className="cigna-col-title">Health plans that save you money</h4>
                 <p>Save on small business health insurance so you can focus on your company.</p>
               </div>
-              <div>
-                <img src="/cigna-oscar/IMG_2.png" />
-                <h4>Care that cares about your employees</h4>
+              <div className="cigna-col">
+                <img src="/cigna-oscar/IMG_2.png" className="cigna-image"/>
+                <h4 className="cigna-col-title">Care that cares about your employees</h4>
                 <p>No-cost 24/7 urgent care2, $3 prescriptions3, and Care Teams that know their names.</p>
               </div>
             </div>
 
-            <p>For your employees and your business</p>
-            <p>Affordable care that works for everyone</p>
+            <p className="section-subtitle">For your employees and your business</p>
+            <p className="section-title">Affordable care that works for everyone</p>
 
             <div>
               <div>
