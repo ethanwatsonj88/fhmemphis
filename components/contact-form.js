@@ -21,16 +21,17 @@ export default function ContactUs() {
   }
 
   return (
-    <div>
-      <h2>Send us your name and email, and we'll have Steve or David contact you.</h2>
-      <form className="contact-form" onSubmit={sendEmail}>
-        <input type="hidden" name="contact_number" />
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>A good time to contact you (Optional)</label>
-        <textarea name="message" />
+    <div className="contact-form">
+      <h2><em>Ready to get started?</em> <br />
+      Send us your name and email, and we'll have Steve or David contact you.</h2>
+      <form className="" onSubmit={sendEmail}>
+        <input className="contact-form-input" type="hidden" name="contact_number" />
+        <label className="contact-form-label">Your Name:&nbsp;</label>
+        <input className="contact-form-input" type="text" name="user_name" />
+        <label className="contact-form-label">Your Email:&nbsp;</label>
+        <input className="contact-form-input" type="email" name="user_email" />
+        <label className="contact-form-label">A good time to contact you (Optional)&nbsp;</label>
+        <input className="contact-form-input" type="text" name="message" />
         <input type="submit" value="Send" />
       </form>
     </div>

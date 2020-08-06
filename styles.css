@@ -353,3 +353,34 @@ li {
   font-size: 2rem;
   text-align: center;
 }
+
+.faq {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.faq-item {
+
+}
+
+.faq-question {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.contact-form {
+  background-color: #ededed;
+}
+
+.contact-form-label {
+  display: inline-block;
+  margin: 1rem 0;
+}
+
+.contact-form-input {
+  display: block;
+  padding: .5rem;
+  margin-bottom: 2rem;
+}

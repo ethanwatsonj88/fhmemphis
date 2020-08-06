@@ -18,7 +18,7 @@ class CignaOscar extends React.Component {
           <main>
             <Navbar name="fdaf"/>
 
-            <div className="head cigna">
+            {/*<div className="head cigna">
               <h2>Cigna + Oscar</h2>  
             </div>
 
@@ -69,7 +69,7 @@ class CignaOscar extends React.Component {
 
             <br /><br /><br /><br /><br /><br /><br /><br />
             <div style={{border: "200px solid red"}}></div>
-
+*/}
             <div className="head cigna">
               <a href="" className="cigna-button">Let's get started ▼</a>
               <h2>We mean business. <br />
@@ -161,9 +161,9 @@ class CignaOscar extends React.Component {
             <div>
               <h4>Frequently asked questions</h4>
 
-              <ul>
-                <li>
-                  <p>Why are Cigna and Oscar partnering?</p>
+              <ul className="faq">
+                <li className="faq-item">
+                  <p className="faq-question">Why are Cigna and Oscar partnering?</p>
                   <p>
                     Cigna + Oscar is designed to work for small businesses like yours. 
                     We’re bringing together the power of Cigna's nationwide and local 
@@ -174,7 +174,7 @@ class CignaOscar extends React.Component {
                   </p>
                 </li>
                 <li>
-                  <p>Is Cigna + Oscar right for my business?</p>
+                  <p className="faq-question">Is Cigna + Oscar right for my business?</p>
                   <p>
                     Cigna + Oscar plans are right for businesses looking to begin 
                     their plan in late 2020, or early 2021, with 1-50 employees 
@@ -185,7 +185,7 @@ class CignaOscar extends React.Component {
                   </p>
                 </li>
                 <li>
-                  <p>When will Cigna + Oscar be available?</p>
+                  <p className="faq-question">When will Cigna + Oscar be available?</p>
                   <p>
                     The effective dates—the first date a Cigna + Oscar plan 
                     can begin—will be 10/1 for most markets pending regulatory 
@@ -194,7 +194,7 @@ class CignaOscar extends React.Component {
                   </p>
                 </li>
                 <li>
-                  <p>Where is Cigna + Oscar available?</p>
+                  <p className="faq-question">Where is Cigna + Oscar available?</p>
                   <p>
                     Cigna + Oscar plans will be available in select ZIP 
                     codes in the Bay Area and Atlanta, as well as throughout 
@@ -204,7 +204,7 @@ class CignaOscar extends React.Component {
                   </p>
                 </li>
                 <li>
-                  <p>How much will Cigna + Oscar plans cost?</p>
+                  <p className="faq-question">How much will Cigna + Oscar plans cost?</p>
                   <p>
                     Plan costs will vary, but we’re all about affordability. 
                     Cigna + Oscar plans are designed to help your business and 
@@ -231,7 +231,7 @@ class CignaOscar extends React.Component {
                   </p>
                 </li>
                 <li>
-                  <p>What type of plan are Cigna + Oscar plans?</p>
+                  <p className="faq-question">What type of plan are Cigna + Oscar plans?</p>
                   <p>
                     The plans available to you will depend on where you are.
 
