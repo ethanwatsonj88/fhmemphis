@@ -71,7 +71,7 @@ class CignaOscar extends React.Component {
             <div style={{border: "200px solid red"}}></div>
 */}
             <div className="head cigna">
-              <a href="" className="cigna-button">Let's get started ▼</a>
+              <a href="#contact-form" className="cigna-button">Let's get started ▼</a>
               <h2>We mean business. <br />
               Yours, that is.</h2> 
 
@@ -97,41 +97,40 @@ class CignaOscar extends React.Component {
             <p className="section-subtitle">For your employees and your business</p>
             <p className="section-title">Affordable care that works for everyone</p>
 
-            <div>
-              <div>
-                <img />
-                <div>
+            <div className="slider-section">
+              <div className="slider">
+                <img src="/cigna-oscar/25e5921222ca44b4b9157b4bb78401f3.png" />
+                <div className="slider-content">
                   <p>NETWORKS TO FIT YOUR NEEDS</p>
                   <p>Access to Cigna's networks of doctors and specialists, no referrals</p>
                 </div>
               </div>
 
-              <div>
-                <img />
-                <div>
+              <div className="slider">
+                <div className="slider-content">
                   <p>24/7 VIRTUAL CARE</p>
                   <p>Hundreds of doctors on call, available anytime for $0</p>
                 </div>
+                <img src="/cigna-oscar/6e4eeef4396072c55fdee04e57b23bbf.png"/>
               </div>
 
-              <div>
-                <img />
-                <div>
+              <div className="slider">
+                <img src="/cigna-oscar/10e42ed837ff5e41cc51c4dd62e68a88.png"/>
+                <div className="slider-content">
                   <p>PLANS THAT FIT YOUR BUDGET</p>
                   <p>Savings you can build on</p>
                 </div>
               </div>
 
-              <div>
-                <img />
-                <div>
+              <div className="slider">
+                <div className="slider-content">
                   <p>PRESCRIPTIONS DONE RIGHT</p>
                   <p>Save on prescriptions and refill them right from your phone </p>
                 </div>
+                <img src="/cigna-oscar/4c6848058d4620d830787212bf933734.png"/>
               </div>
 
-              <button>Let's get started</button>
-
+              <a className="cigna-button button-center" href="#contact-form">Let's get started ▼</a>
             </div>
 
             <div>

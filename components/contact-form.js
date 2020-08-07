@@ -21,9 +21,9 @@ export default function ContactUs() {
   }
 
   return (
-    <div className="contact-form">
+    <div className="contact-form" id="contact-form">
       <h2><em>Ready to get started?</em> <br />
-      Send us your name and email, and we'll have Steve or David contact you.</h2>
+      Send us your name and email, and we'll have David or Steve contact you.</h2>
       <form className="" onSubmit={sendEmail}>
         <input className="contact-form-input" type="hidden" name="contact_number" />
         <label className="contact-form-label">Your Name:&nbsp;</label>
