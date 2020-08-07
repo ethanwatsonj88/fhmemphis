@@ -126,7 +126,7 @@ a:hover {
   margin-right: -50vw;
   padding: 0 16.6rem;
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
 
 }
 
@@ -314,6 +314,7 @@ li {
   margin: auto;
   text-align: center;
   text-transform: uppercase;
+  color: #136653;
 }
 
 .section-title {
@@ -322,6 +323,9 @@ li {
   align-self: center;
   text-align: center;
   margin: 0;
+  font-family: 'DM Serif Display';
+  margin-bottom: 2rem;
+  color: #136653;
 }
 
 .cigna-two-col {
@@ -357,6 +361,14 @@ li {
   text-align: center;
   display: block;
   border-radius: 2rem;
+  margin-bottom: 2rem;
+}
+
+.faq-title {
+  font-family: 'DM Serif Display';
+  font-size: 3rem;
+  margin: 1rem 0;
+  color: #136653;
 }
 
 .faq {
@@ -425,9 +437,11 @@ li {
 
 .button-center {
   margin: auto;
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  margin-bottom: 2rem;
+  border: 1px solid #136653;
+  /*-moz-box-shadow:    3px 3px 5px 6px #ccc;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-  box-shadow:         inset 0px 8px 8px 1px #ccc;
+  box-shadow:         inset 0px 8px 8px 1px #ccc;*/
 }
 
 /*@font-face {

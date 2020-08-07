@@ -158,7 +158,7 @@ class CignaOscar extends React.Component {
             </div>
 
             <div>
-              <h4>Frequently asked questions</h4>
+              <h4 className="faq-title">Frequently asked questions</h4>
 
               <ul className="faq">
                 <li className="faq-item">
