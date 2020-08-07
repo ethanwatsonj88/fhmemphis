@@ -102,14 +102,14 @@ class CignaOscar extends React.Component {
                 <img src="/cigna-oscar/25e5921222ca44b4b9157b4bb78401f3.png" />
                 <div className="slider-content">
                   <p>NETWORKS TO FIT YOUR NEEDS</p>
-                  <p>Access to Cigna's networks of doctors and specialists, no referrals</p>
+                  <p className="slider-description">Access to Cigna's networks of doctors and specialists, no referrals</p>
                 </div>
               </div>
 
               <div className="slider">
                 <div className="slider-content">
                   <p>24/7 VIRTUAL CARE</p>
-                  <p>Hundreds of doctors on call, available anytime for $0</p>
+                  <p className="slider-description">Hundreds of doctors on call, available anytime for $0</p>
                 </div>
                 <img src="/cigna-oscar/6e4eeef4396072c55fdee04e57b23bbf.png"/>
               </div>
@@ -118,14 +118,14 @@ class CignaOscar extends React.Component {
                 <img src="/cigna-oscar/10e42ed837ff5e41cc51c4dd62e68a88.png"/>
                 <div className="slider-content">
                   <p>PLANS THAT FIT YOUR BUDGET</p>
-                  <p>Savings you can build on</p>
+                  <p className="slider-description">Savings you can build on</p>
                 </div>
               </div>
 
               <div className="slider">
                 <div className="slider-content">
                   <p>PRESCRIPTIONS DONE RIGHT</p>
-                  <p>Save on prescriptions and refill them right from your phone </p>
+                  <p className="slider-description">Save on prescriptions and refill them right from your phone </p>
                 </div>
                 <img src="/cigna-oscar/4c6848058d4620d830787212bf933734.png"/>
               </div>

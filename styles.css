@@ -402,7 +402,7 @@ li {
   margin: 2rem 16rem;
   background-color: white;
   flex-direction: row;
-  padding: 2rem 2rem;
+  padding: 4rem 4rem;
 }
 
 .slider img {
@@ -413,7 +413,14 @@ li {
 
 .slider-content {
   margin: auto;
+  padding: 0 2rem;
   width: auto;
+  color: #136653;
+}
+
+.slider-description {
+  font-size: 3rem;
+  font-family: 'DM Serif Display';
 }
 
 .button-center {
@@ -421,4 +428,18 @@ li {
   -moz-box-shadow:    3px 3px 5px 6px #ccc;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
   box-shadow:         inset 0px 8px 8px 1px #ccc;
+}
+
+/*@font-face {
+  font-family: DMSerifDisplay;
+  font-style: normal;
+  font-weight: 400;
+    font-display: swap;
+  src: local('DM Serif Display'), local('DMSerifDisplay'),
+       url('/fonts/DMSerifDisplay-Regular.ttf') format('ttf')
+}*/
+
+@font-face {
+  font-family: 'DM Serif Display';
+  src: url(/fonts/DMSerifDisplay-Regular.ttf);
 }
