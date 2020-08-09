@@ -135,21 +135,21 @@ class CignaOscar extends React.Component {
 
             <div>
               <div>
-                <h4>Care for every part of your team</h4>
+                <h4 className="contact-title">Care for every part of your team</h4>
                 <div>
-                  <p>Dedicated care guides</p>
+                  <p><b>Dedicated care guides</b></p>
                   <p>Help employees find the best doctors and specialists to get the most from their plans.</p>
 
                 </div>
 
                 <div>
-                  <p>Plan guides</p>
+                  <p><b>Plan guides</b></p>
                   <p>Help employees find the best doctors and specialists to get the most from their plans.</p>
 
                 </div>
 
                 <div>
-                  <p>Healthy minds and bodies</p>
+                  <p><b>Healthy minds and bodies</b></p>
                   <p>Mental health support, behavioral coaching, and more to keep employees happy, healthy, and productive.</p>
 
                 </div>
