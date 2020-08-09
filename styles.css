@@ -115,7 +115,7 @@ a:hover {
 
 .head {
 /*  width: inherit;
-*/  height: 50rem;
+*/  height: 60rem;
   background-image: url(public/fhmemphis-splash.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -466,4 +466,16 @@ li {
 @font-face {
   font-family: 'DM Serif Display';
   src: url(/fonts/DMSerifDisplay-Regular.ttf);
+}
+
+.contact-title {
+  font-size: 3rem;
+  font-family: 'DM Serif Display';
+  margin-bottom: 0;
+  color: #136653;
+}
+
+.contact-description {
+  font-size: 2rem;
+  margin-top: 0;
 }
