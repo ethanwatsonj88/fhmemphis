@@ -44,7 +44,7 @@ export default function ContactUs() {
 
         <label className="contact-form-label">A good time to contact you (Optional)&nbsp;</label>
         <input className="contact-form-input" type="text" name="message" />
-        <input type="submit" value="Send" />
+        <input className="contact-form-button" type="submit" value="Send" />
       </form>
     </div>
   );
