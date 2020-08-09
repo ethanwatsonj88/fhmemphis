@@ -7,6 +7,11 @@ body {
     sans-serif;
   color: #141414;
   scroll-behavior: smooth;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+
 
 }
 
@@ -109,8 +114,8 @@ a:hover {
 }
 
 .head {
-  width: 100%;
-  height: 50rem;
+/*  width: inherit;
+*/  height: 50rem;
   background-image: url(public/fhmemphis-splash.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -118,15 +123,18 @@ a:hover {
   background-size: cover;
   display: flex;
   flex-direction: column-reverse;
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  padding: 0 16.6rem;
+  /*width: 100vw;*/
+  /*position: relative;*/
+  /*left: 50%;*/
+  /*right: 50%;*/
+  /*margin-left: -50vw;
+  margin-right: -50vw;*/
+ /* padding: 0 16.6rem;*/
+ margin-right: -16rem;
+ margin-left: -16rem;
   margin-top: 1rem;
   margin-bottom: 4rem;
+  padding: 0 16rem;
 
 }
 
@@ -264,7 +272,9 @@ li {
   }
 
   .head {
-    height: 20rem;
+    height: 30rem;
+    margin: 0 -4rem;
+    padding: 0 4rem;
   }
 
   .title {
