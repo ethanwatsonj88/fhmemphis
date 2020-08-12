@@ -145,13 +145,21 @@ a:hover {
   animation-timing-function: ease-in;
 }
 
+.cigna-white {
+  background-image: url(public/oscar-cigna-logo.jpg);
+}
+
+.head.cigna-white > h2 {
+  color: black;
+
+}
+
 .head h2 {
   color: white;
 }
 
 .head-promo {
   font-size: 6rem;
-  
 }
 
 input {
@@ -283,7 +291,6 @@ li {
 
   h2 {
     font-size: 1.6rem;
-    white-space: nowrap;
   }
 
   .employee-strip {
@@ -295,6 +302,10 @@ li {
     position: relative;
     right: 50%;
     width: 100vw;
+  }
+
+  .head-promo {
+    font-size: 1.6rem;
   }
 
   .card {
