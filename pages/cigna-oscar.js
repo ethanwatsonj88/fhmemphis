@@ -110,7 +110,7 @@ class CignaOscar extends React.Component {
               <div className="slider">
                 <div className="slider-content">
                   <p>24/7 VIRTUAL CARE</p>
-                  <p className="slider-description">Hundreds of doctors on call, available anytime for $0</p>
+                  <p className="slider-description">Hundreds of doctors on call, available anytime at no extra cost</p>
                 </div>
                 <img src="/cigna-oscar/6e4eeef4396072c55fdee04e57b23bbf.png"/>
               </div>
