@@ -23,7 +23,7 @@ export default function ContactUs() {
   return (
     <div className="contact-form" id="contact-form">
       <h2 className="contact-title">Ready to get started?</h2>
-      <p className="contact-description">Send us your name and email, and we'll have David or Steve contact you.</p>
+      <p className="contact-description">Send us your name and email, and we'll have David Deaderick or Steve Lester contact you. You can also call them at 901-692-8688 at your convenience.</p>
       <form className="" onSubmit={sendEmail}>
         <input className="contact-form-input" type="hidden" name="contact_number" />
         

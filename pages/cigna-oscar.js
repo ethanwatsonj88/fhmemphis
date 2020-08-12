@@ -178,7 +178,7 @@ class CignaOscar extends React.Component {
                   <p>
                     Cigna + Oscar plans are right for businesses looking to begin 
                     their plan in late 2020, or early 2021, with 1-50 employees 
-                    total (or, in certain states, up to 100 employees). Our 
+                    total. Our 
                     plans are built for small businesses with at least one qualified 
                     full-time (or full-time equivalent) employee, other than the 
                     business owner or a spouse.
@@ -196,11 +196,7 @@ class CignaOscar extends React.Component {
                 <li>
                   <p className="faq-question">Where is Cigna + Oscar available?</p>
                   <p>
-                    Cigna + Oscar plans will be available in select ZIP 
-                    codes in the Bay Area and Atlanta, as well as throughout 
-                    the state of Tennessee, pending regulatory approval. 
-                    Use the form on this page to confirm if Cigna + Oscar 
-                    will be available in your area soon.
+                    Cigna + Oscar plans will be available in all Tennessee counties.
                   </p>
                 </li>
                 <li>
@@ -228,30 +224,6 @@ class CignaOscar extends React.Component {
                     they hit their step goal (up to $100 per year).
                     
                     Quotes are now available in Tennessee and Atlanta. Fill out our Sales Contact form for a quote.
-                  </p>
-                </li>
-                <li>
-                  <p className="faq-question">What type of plan are Cigna + Oscar plans?</p>
-                  <p>
-                    The plans available to you will depend on where you are.
-
-                    Pending regulatory approval, EPO will be offered in 
-                    California and Tennessee; PPO will be available in Georgia.
-                    
-                    EPO stands for Exclusive Provider Organization. They 
-                    typically have smaller networks that combine the flexibility 
-                    of a PPO with the cost savings of an HMO. You won’t need to 
-                    choose a primary care doctor or ask for referrals. Care is 
-                    covered by doctors and facilities within the network—but not 
-                    outside the network, except in emergencies.
-
-                    PPO stands for Preferred Provider Organization. Although they 
-                    can be more expensive than an EPO, they tend to offer the 
-                    broadest access to care. They include networks that cover care 
-                    from both in-network and out-of-network doctors and facilities, 
-                    but going out of network may cost additional as compared to 
-                    staying in network. You won’t have to choose a primary care 
-                    doctor, and referrals aren’t required to see a specialist.
                   </p>
                 </li>
               </ul>
