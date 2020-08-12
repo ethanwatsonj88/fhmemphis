@@ -26,7 +26,7 @@ class OurTeam extends React.Component {
               <ul className="employee-details">
                 <li><b>Stephen Lester</b></li>
                 <li>Phone: 901-268-4824</li>
-                <li>Email: fpsc_sl@bellsouth.net</li>
+                <li>Email: steve@fhmemphis.com</li>
               </ul>
               <img src="sl.png" />
             </div>
@@ -35,7 +35,7 @@ class OurTeam extends React.Component {
               <ul className="employee-details">
                 <li><b>David Deaderick</b></li>
                 <li>Phone: 901-260-6420</li>
-                <li>Email: fpsc_dd@bellsouth.net</li>
+                <li>Email: david@fhmemphis.com</li>
               </ul>
               <img src="dd.png" />
             </div>

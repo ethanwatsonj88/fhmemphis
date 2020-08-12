@@ -91,7 +91,7 @@ class CignaOscar extends React.Component {
               <div className="cigna-col">
                 <img src="/cigna-oscar/IMG_2.png" className="cigna-image"/>
                 <h4 className="cigna-col-title">Care that cares about your employees</h4>
-                <p>No-cost 24/7 urgent care2, $3 prescriptions3, and Care Teams that know their names.</p>
+                <p>No-cost 24/7 urgent care, $3 prescriptions, and Care Teams that know their names.</p>
               </div>
             </div>
 
