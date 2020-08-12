@@ -41,7 +41,7 @@ export default function Home() {
         <div className="employee-strip">
           <ul className="employee-details">
             <li><b>David Deaderick</b></li>
-            <li>Phone: 901-260-6420</li>
+            <li>Phone: 901-692-8688</li>
             <li>Email: david@fhmemphis.com</li>
           </ul>
           <img src="dd.png" />

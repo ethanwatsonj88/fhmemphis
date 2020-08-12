@@ -24,22 +24,21 @@ class OurTeam extends React.Component {
 
             <div className="employee-strip">
               <ul className="employee-details">
+                <li><b>David Deaderick</b></li>
+                <li>Phone: 901-692-8688</li>
+                <li>Email: david@fhmemphis.com</li>
+              </ul>
+              <img src="dd.png" />
+            </div>
+
+            <div className="employee-strip">
+              <ul className="employee-details">
                 <li><b>Stephen Lester</b></li>
                 <li>Phone: 901-268-4824</li>
                 <li>Email: steve@fhmemphis.com</li>
               </ul>
               <img src="sl.png" />
             </div>
-
-            <div className="employee-strip">
-              <ul className="employee-details">
-                <li><b>David Deaderick</b></li>
-                <li>Phone: 901-260-6420</li>
-                <li>Email: david@fhmemphis.com</li>
-              </ul>
-              <img src="dd.png" />
-            </div>
-
             
           </main>
 

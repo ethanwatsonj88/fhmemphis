@@ -3,6 +3,8 @@ import emailjs from 'emailjs-com';
 
 export default function ContactUs() {
 
+  let submitted = false;
+
   function sendEmail(e) {
     e.preventDefault();
 
@@ -18,6 +20,12 @@ export default function ContactUs() {
       }, (error) => {
           console.log(error.text);
       });
+  }
+
+  function handleClick(e) {
+    e.preventDefault();
+    console.log('The link was clicked.');
+    submitted = true;
   }
 
   return (
@@ -44,8 +52,17 @@ export default function ContactUs() {
 
         <label className="contact-form-label">A good time to contact you (Optional)&nbsp;</label>
         <input className="contact-form-input" type="text" name="message" />
-        <input className="contact-form-button" type="submit" value="Send" />
+        <input className="contact-form-button" type="submit" value="Send" onClick={handleClick}/>
       </form>
+      {/*<div>
+          {submitted ? (
+            <p>done</p>
+          ) : (
+            <p>not done</p>
+          )}
+        </div>  */}
     </div>
-  );
+
+    
+        );
 }
