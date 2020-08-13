@@ -17,7 +17,7 @@ export default function Home() {
         <div className="head">
           <h2>Dedicated to serving the Midsouth</h2>
 
-          <h2 className="head-promo"><b>A new plan from Cigna + Oscar. <a href="/cigna-oscar">Read more</a></b></h2>
+          <h2 className="head-promo"><b>A new plan from Cigna + Oscar. <a href="/cigna-oscar">Click here to learn more</a></b></h2>
 
         </div>
 
@@ -29,7 +29,7 @@ export default function Home() {
 
         <div className="promo-strip">
           <ul className="promo-details">
-            <li>Possibly save up to 12% on employer health insurance with the new Cigna + Oscar plan.</li>
+            <li>Possibly save 10 to 30% on employer health insurance with the new Cigna + Oscar plan.</li>
             <li><Link href="/cigna-oscar"><a><b>Learn more ></b></a></Link></li>
 
           </ul>

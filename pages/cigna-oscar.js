@@ -228,7 +228,10 @@ class CignaOscar extends React.Component {
                 </li>
               </ul>
 
+              <a className="cigna-button button-center" href="#contact-form">Let's get started ▲</a>
+
             </div>
+
           </main>
 
           <Footbar />

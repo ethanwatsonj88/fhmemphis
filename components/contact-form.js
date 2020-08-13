@@ -37,6 +37,12 @@ export default function ContactUs() {
         
         <label className="contact-form-label">Business Name:&nbsp;</label>
         <input className="contact-form-input" type="text" name="business_name" />
+
+        <label className="contact-form-label">Business Email:&nbsp;</label>
+        <input className="contact-form-input" type="email" name="business_email" />
+
+        <label className="contact-form-label">Business Phone Number:&nbsp;</label>
+        <input className="contact-form-input" type="text" name="business_number" />
         
         <label className="contact-form-label">Business ZIP code:&nbsp;</label>
         <input className="contact-form-input" type="text" name="zip_code" />
@@ -44,14 +50,18 @@ export default function ContactUs() {
         <label className="contact-form-label">Number of employees:&nbsp;</label>
         <input className="contact-form-input" type="text" name="num_employees" />
 
-        <label className="contact-form-label">Business Email:&nbsp;</label>
-        <input className="contact-form-input" type="email" name="business_email" />
+        <label className="contact-form-label">Have a plan now?&nbsp;</label>
+        <input className="contact-form-input contact-checkbox" type="checkbox" name="has_plan" />
 
         <label className="contact-form-label">Desired start date:&nbsp;</label>
         <input className="contact-form-input" type="date" name="start_date" />
 
-        <label className="contact-form-label">A good time to contact you (Optional)&nbsp;</label>
+        <label className="contact-form-label">Best method to contact you (Email or phone):&nbsp;</label>
+        <input className="contact-form-input" type="text" name="method" />
+
+        <label className="contact-form-label">A good time to contact you (Optional):&nbsp;</label>
         <input className="contact-form-input" type="text" name="message" />
+
         <input className="contact-form-button" type="submit" value="Send" />
       </form>
       {/*<div>
