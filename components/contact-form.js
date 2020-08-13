@@ -52,7 +52,7 @@ export default function ContactUs() {
 
         <label className="contact-form-label">A good time to contact you (Optional)&nbsp;</label>
         <input className="contact-form-input" type="text" name="message" />
-        <input className="contact-form-button" type="submit" value="Send" onClick={handleClick}/>
+        <input className="contact-form-button" type="submit" value="Send" />
       </form>
       {/*<div>
           {submitted ? (
