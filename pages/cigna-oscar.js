@@ -77,7 +77,6 @@ class CignaOscar extends React.Component {
 
             </div>
 
-            <ContactUs />
 
             <p className="section-subtitle">Something for everyone</p>
             <p className="section-title">Healthy employees and a healthy bottom line</p>
@@ -131,7 +130,7 @@ class CignaOscar extends React.Component {
                 <img src="/cigna-oscar/4c6848058d4620d830787212bf933734.png"/>
               </div>
 
-              <a className="cigna-button button-center" href="#contact-form">Let's get started ▲</a>
+              <a className="cigna-button button-center" href="#contact-form">Let's get started ▼</a>
             </div>
 
             <div>
@@ -228,9 +227,11 @@ class CignaOscar extends React.Component {
                 </li>
               </ul>
 
-              <a className="cigna-button button-center" href="#contact-form">Let's get started ▲</a>
+              <a className="cigna-button button-center" href="#contact-form">Let's get started ▼</a>
 
             </div>
+
+            <ContactUs />
 
           </main>
 
