@@ -13,11 +13,17 @@ export default function Home() {
 
       <main>
         <Navbar name="fdaf"/>
+        <div className="promo-strip">
+          <ul className="promo-details">
+            <li>Drastically reduced or even free ACA plan rates begin April 1st! <a href="tel:901-268-4824">Call us</a> or <a href="https://www.healthsherpa.com/?_agent_id=edward-felsenthal">enroll yourself</a> before May 15th</li>
+
+          </ul>
+        </div>
 
         <div className="head">
           <h2>Dedicated to serving the Midsouth</h2>
 
-          <h2 className="head-promo"><b>A new plan from Cigna + Oscar. <a href="/cigna-oscar">Click here to learn more</a></b></h2>
+          <h2 className="head-promo"><b></b></h2>
 
         </div>
 
@@ -29,11 +35,9 @@ export default function Home() {
 
         <div className="promo-strip">
           <ul className="promo-details">
-            <li>Possibly save 10 to 30% on employer health insurance with the new Cigna + Oscar plan.</li>
-            <li><Link href="/cigna-oscar"><a><b>Learn more ></b></a></Link></li>
+            <li>Drastically reduced or even free ACA plan rates begin April 1st! <a href="tel:901-268-4824">Call us</a> or <a href="https://www.healthsherpa.com/?_agent_id=edward-felsenthal">enroll yourself</a> before May 15th</li>
 
           </ul>
-          <img src="oscar-cigna-logo.jpg" />
         </div>
 
         <h2>Meet our team</h2>
