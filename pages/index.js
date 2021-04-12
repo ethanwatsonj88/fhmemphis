@@ -15,7 +15,7 @@ export default function Home() {
         <Navbar name="fdaf"/>
         <div className="promo-strip">
           <ul className="promo-details">
-            <li>Drastically reduced or even free ACA plan rates begin April 1st! <a href="tel:901-268-4824">Call us</a> or <a href="https://www.healthsherpa.com/?_agent_id=edward-felsenthal">enroll yourself</a> before May 15th</li>
+            <li>Drastically reduced or even free ACA plan rates begin April 1st! <a href="tel:901-268-4824">Call us</a> or <a href="https://www.healthsherpa.com/?_agent_id=edward-felsenthal">enroll yourself</a> before August 15th</li>
 
           </ul>
         </div>
@@ -35,7 +35,7 @@ export default function Home() {
 
         <div className="promo-strip">
           <ul className="promo-details">
-            <li>Drastically reduced or even free ACA plan rates begin April 1st! <a href="tel:901-268-4824">Call us</a> or <a href="https://www.healthsherpa.com/?_agent_id=edward-felsenthal">enroll yourself</a> before May 15th</li>
+            <li>Drastically reduced or even free ACA plan rates begin April 1st! <a href="tel:901-268-4824">Call us</a> or <a href="https://www.healthsherpa.com/?_agent_id=edward-felsenthal">enroll yourself</a> before August 15th</li>
 
           </ul>
         </div>
