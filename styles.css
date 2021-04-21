@@ -324,6 +324,10 @@ li {
     /*width: 100vw;*/
   }
 
+  .employee-details > li {
+    font-size: 14px;
+  }
+
   .head-promo {
     font-size: 1.6rem;
   }
