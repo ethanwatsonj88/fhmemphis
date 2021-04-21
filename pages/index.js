@@ -13,25 +13,19 @@ export default function Home() {
 
       <main>
         <Navbar name="fdaf"/>
-        <div className="promo-strip">
-          <ul className="promo-details">
-            <li>Drastically reduced or even free ACA plan rates begin April 1st! <a href="tel:901-268-4824">Call us</a> or <a href="https://www.healthsherpa.com/?_agent_id=edward-felsenthal">enroll yourself</a> before August 15th</li>
-
-          </ul>
-        </div>
 
         <div className="head">
-          <h2>Dedicated to serving the Midsouth</h2>
+          <h2>Felsenthal Health and Employee Benefits</h2>
 
           <h2 className="head-promo"><b></b></h2>
 
         </div>
 
 
-
+{/*
         <h1 className="title">
           Felsenthal Health and Employee Benefits
-        </h1>
+        </h1>*/}
 
         <div className="promo-strip">
           <ul className="promo-details">
@@ -40,24 +34,24 @@ export default function Home() {
           </ul>
         </div>
 
-        <h2>Meet our team</h2>
+        <h2>Call our team</h2>
 
-        <div className="employee-strip">
-          <ul className="employee-details">
-            <li><b>David Deaderick</b></li>
-            <li>Phone: 901-692-8688</li>
-            <li>Email: david@fhmemphis.com</li>
-          </ul>
-          <img src="dd.png" />
-        </div>
+        <div className="employee-group">
+          <div className="employee-strip">
+            <ul className="employee-details">
+              <li><b>David Deaderick</b></li>
+              <li>Phone: 901-692-8688</li>
+              <li>Email: david@fhmemphis.com</li>
+            </ul>
+          </div>
 
-        <div className="employee-strip">
-          <ul className="employee-details">
-            <li><b>Stephen Lester</b></li>
-            <li>Phone: 901-268-4824</li>
-            <li>Email: steve@fhmemphis.com</li>
-          </ul>
-          <img src="sl.png" />
+          <div className="employee-strip">
+            <ul className="employee-details">
+              <li><b>Stephen Lester</b></li>
+              <li>Phone: 901-268-4824</li>
+              <li>Email: steve@fhmemphis.com</li>
+            </ul>
+          </div>
         </div>
         
         {/*<h3>Sign up for the affordable care act</h3>

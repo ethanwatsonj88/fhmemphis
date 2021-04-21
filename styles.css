@@ -115,7 +115,7 @@ a:hover {
 
 .head {
 /*  width: inherit;
-*/  height: 60rem;
+*/  height: 10rem;
   background-image: url(public/fhmemphis-splash.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -133,7 +133,7 @@ a:hover {
  margin-right: -16rem;
  margin-left: -16rem;
   margin-top: 1rem;
-  margin-bottom: 4rem;
+  margin-bottom: 0;
   padding: 0 16rem;
 
 }
@@ -178,7 +178,7 @@ img {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 2rem -16rem;
+  margin: 0 -16rem;
   padding: 1.8rem 16rem;
 
 }
@@ -194,15 +194,27 @@ img {
   font-size: 1.6rem;
 }
 
+.employee-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.employee-group > div:last-child {
+  margin-left: 1rem;
+}
+
 .employee-strip {
   background-color: #136653;
   border-bottom: 8px solid #8db0a5;
   margin: 2rem 0;
+  margin-top: 0;
   padding: 1rem 2rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 
 }
 
